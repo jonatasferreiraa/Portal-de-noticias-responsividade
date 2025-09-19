@@ -1,0 +1,16 @@
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.desktop-only {
+  display: none;
+}
+
+.even-columns {
+  display: grid;
+  gap: 1rem;
+}

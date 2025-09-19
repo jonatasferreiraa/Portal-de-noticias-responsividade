@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #0f172a;
+  --stroke-color: #1e293b;
+
+  --brand-color-light: #60a5fa;
+  --brand-color-dark: #1d4ed8;
+
+  --text-color-primary: #f4f5f9;
+  --text-color-secondary: #cbd5e1;
+
+  --ff-sans: "Archivo", sans-serif;
+
+  --title-lg: 800 1.5rem/1.35 var(--ff-sans);
+  --title-md: 800 1rem/1.4 var(--ff-sans);
+  --title-sm: 800 0.875rem/1.4 var(--ff-sans);
+  --span: 500 0.875rem/1.45 var(--ff-sans);
+  --text-p: 400 0.875rem/1.6 var(--ff-sans);
+
+  /* inline */
+  --px-default: 1rem;
+
+  /* block */
+  --py-xl: 2rem;
+  --py-lg: 1.5rem;
+  --py-md: 1rem;
+  --py-sm: 0.875rem;
+}
+
+html {
+  font-family: var(--ff-sans);
+  color: var(--text-color-primary);
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--bg-color);
+  overflow-x: hidden;
+
+  --max-width: 360px;
+  max-width: min(var(--max-width), 100% - var(--px-default) * 2);
+  margin-inline: auto;
+}
+
+h1 {
+  font: var(--title-lg);
+}
+
+h2 {
+  font: var(--title-md);
+}
+
+h3 {
+  font: var(--title-sm);
+}
+
+p {
+  font: var(--text-p);
+}
+
+span {
+  font: var(--span);
+  cursor: pointer;
+
+  &:hover {
+    color: var(--brand-color-light);
+  }
+}
+
+@media (width >= 80rem) {
+  :root {
+    /* inline */
+    --px-default: 2rem;
+
+    /* block */
+    --py-xl: 5rem;
+    --py-lg: 1.5rem;
+    --py-md: 1rem;
+  }
+
+  body {
+    --max-width: 80rem;
+  }
+}
