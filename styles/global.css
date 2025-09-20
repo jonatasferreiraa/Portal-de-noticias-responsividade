@@ -21,6 +21,7 @@
   --title-sm: 800 0.875rem/1.4 var(--ff-sans);
   --span: 500 0.875rem/1.45 var(--ff-sans);
   --text-p: 400 0.875rem/1.6 var(--ff-sans);
+  --text: 700 1rem/1.4 var(--ff-sans);
 
   /* inline */
   --px-default: 1rem;
@@ -35,6 +36,7 @@
 html {
   font-family: var(--ff-sans);
   color: var(--text-color-primary);
+
   overflow-x: hidden;
 }
 
@@ -65,10 +67,21 @@ p {
 
 span {
   font: var(--span);
-  cursor: pointer;
+  text-transform: uppercase;
+
+  background-color: var(--brand-color-dark);
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+a {
+  font: 600 0.875rem/1.45 var(--ff-sans);
+  color: var(--text-color-secondary);
+  text-decoration: none;
 
   &:hover {
     color: var(--brand-color-light);
+    transition: 0.4s;
   }
 }
 

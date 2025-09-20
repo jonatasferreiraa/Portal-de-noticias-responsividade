@@ -6,6 +6,10 @@
   display: flex;
 }
 
+.items-center {
+  align-items: center;
+}
+
 .desktop-only {
   display: none;
 }
@@ -13,4 +17,31 @@
 .even-columns {
   display: grid;
   gap: 1rem;
+}
+
+.py-xl {
+  padding-block: var(--py-xl);
+}
+
+.py-lg {
+  padding-block: var(--py-lg);
+}
+
+.py-md {
+  padding-block: var(--py-md);
+}
+
+.py-sm {
+  padding-block: var(--py-sm);
+}
+
+@media (width >=80rem) {
+  .desktop-only {
+    display: initial;
+  }
+
+  .even-columns {
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
 }
