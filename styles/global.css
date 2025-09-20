@@ -99,4 +99,15 @@ a {
   body {
     --max-width: 80rem;
   }
+
+  a {
+    font: 600 0.875rem/1.45 var(--ff-sans);
+    color: var(--text-color-secondary);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--brand-color-light);
+      transition: 0.4s;
+    }
+  }
 }

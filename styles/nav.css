@@ -1,0 +1,13 @@
+nav {
+  justify-content: space-between;
+
+  border: 1px solid var(--stroke-color);
+  border-left: none;
+  border-right: none;
+
+  padding-block: 0.875rem;
+
+  & a {
+    white-space: nowrap;
+  }
+}
