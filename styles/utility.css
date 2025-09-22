@@ -30,6 +30,10 @@
   display: none;
 }
 
+.mobile-only {
+  display: initial;
+}
+
 .even-columns {
   display: grid;
   gap: 1rem;
@@ -51,21 +55,37 @@
   padding-block: var(--py-sm);
 }
 
-.txt-lg {
+.title-lg {
   font: var(--title-lg);
 }
 
-.txt-md {
+.tile-md {
   font: var(--title-md);
 }
 
-.txt-sm {
+.title-sm {
   font: var(--title-sm);
+}
+
+.txt-xl {
+  font: var(--text);
+}
+
+.txt-sm {
+  font: var(--text-p);
+}
+
+m\.top-8 {
+  margin-top: 0.5rem;
 }
 
 @media (width >=80rem) {
   .desktop-only {
     display: initial;
+  }
+
+  .mobile-only {
+    display: none;
   }
 
   .even-columns {
