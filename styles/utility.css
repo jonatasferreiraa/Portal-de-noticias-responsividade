@@ -2,6 +2,10 @@
   display: grid;
 }
 
+.flow-columns {
+  grid-auto-flow: column;
+}
+
 .flex {
   display: flex;
 }
