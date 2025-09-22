@@ -13,18 +13,18 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <header class="flex items-center">
-      <div class="menu">
-        <img src="/assets/icons/List.svg" alt="" />
-        <a href="#" class="desktop-only">Menu</a>
-      </div>
+    <header class="flex items-center" id="navegation-bar">
+      <a href="#" class="grid flow-columns" id="menu">
+        <span></span>
+        <strong class="desktop-only">Menu</strong>
+      </a>
 
       <a href="#"><img src="/assets/icons/logo.svg" alt="" /></a>
 
-      <div class="search">
-        <a href="#" class="desktop-only">Buscar</a>
-        <img src="/assets/icons/MagnifyingGlass.svg" alt="" />
-      </div>
+      <a href="#" class="grid flow-columns" id="search">
+        <span></span>
+        <strong class="desktop-only">Buscar</strong>
+      </a>
     </header>
 
     <nav class="flex gap-32 items-center">
@@ -37,7 +37,7 @@
       <a href="#">Realidade Virtual</a>
     </nav>
 
-    <main class="py-lg">
+    <main class="py-xl">
       <section id="featured" class="grid even-columns">
         <figure class="card">
           <img src="/assets/imgs/Image 01.png" alt="" />
@@ -134,9 +134,9 @@
       </section>
 
       <section id="weekly" class="even-colunms">
-        <header class="flex">
+        <header class="grid flow-columns">
           <h3>Mais lidas da semana</h3>
-          <a href="#">
+          <a href="#" class="grid flow-columns">
             <strong>Ver tudo</strong>
             <span></span>
           </a>
