@@ -1,0 +1,13 @@
+@media (width >= 80rem) {
+  #featured {
+    & img {
+      height: 100%;
+      object-fit: cover;
+      border-radius: 0.25rem;
+    }
+
+    & div:nth-child(2) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}

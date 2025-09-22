@@ -6,6 +6,14 @@
   display: flex;
 }
 
+.gap-8 {
+  gap: 0.5rem;
+}
+
+.gap-16 {
+  gap: 1rem;
+}
+
 .gap-32 {
   gap: 2rem;
 }
@@ -37,6 +45,18 @@
 
 .py-sm {
   padding-block: var(--py-sm);
+}
+
+.txt-lg {
+  font: var(--title-lg);
+}
+
+.txt-md {
+  font: var(--title-md);
+}
+
+.txt-sm {
+  font: var(--title-sm);
 }
 
 @media (width >=80rem) {
