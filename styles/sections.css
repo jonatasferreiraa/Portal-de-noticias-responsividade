@@ -29,8 +29,11 @@
       bottom: 0;
       padding: 1rem;
 
-      & .text-mobile::before {
-        content: "Robôs domésticos começam a ser adotados para tarefas...";
+      & .robotic-title {
+        font: 800 1.5rem/1.35 var(--ff-sans);
+      }
+
+      & .text-mobile {
         display: inline-block;
         margin-top: 0.5rem;
       }
@@ -45,6 +48,12 @@
 
 @media (width >= 80rem) {
   #featured {
+    & img[src*="Image 01"] {
+      height: 100%;
+      object-fit: cover;
+      border-radius: 0.25rem;
+    }
+
     & img {
       height: 100%;
       object-fit: cover;
@@ -57,14 +66,19 @@
         bottom: 0;
         padding: 1.5rem;
 
+        & .robotic-title {
+          font: 800 1.5rem/1.35 var(--ff-sans);
+        }
+
         & h2 {
           display: inline-block;
           margin-top: 0.5rem;
+          font: 800 0.875rem/1.4 var(--ff-sans);
         }
-      }
 
-      & .text-mobile {
-        display: none;
+        & .text-mobile {
+          display: none;
+        }
       }
     }
 
