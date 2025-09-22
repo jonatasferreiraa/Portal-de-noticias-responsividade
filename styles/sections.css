@@ -1,9 +1,70 @@
+#featured {
+  & figure img {
+    height: 26rem;
+  }
+
+  & img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.25rem;
+  }
+
+  .card {
+    position: relative;
+    overflow: hidden;
+
+    border-radius: 0.25rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+
+      top: 50%;
+      background: linear-gradient(180deg, transparent 0%, #020617 100%);
+    }
+
+    & figcaption {
+      position: absolute;
+      bottom: 0;
+      padding: 1.5rem;
+
+      & .text-mobile::before {
+        content: "Robôs domésticos começam a ser adotados para tarefas...";
+        display: inline-block;
+        margin-top: 0.5rem;
+      }
+    }
+  }
+}
+
 @media (width >= 80rem) {
   #featured {
+    & figure img {
+      height: 100%;
+    }
+
     & img {
       height: 100%;
       object-fit: cover;
       border-radius: 0.25rem;
+    }
+
+    .card {
+      & figcaption {
+        position: absolute;
+        bottom: 0;
+        padding: 1.5rem;
+
+        & h2 {
+          margin-top: 0.5rem;
+          display: inline-block;
+        }
+      }
+
+      & .text-mobile {
+        display: none;
+      }
     }
 
     & div:nth-child(2) {

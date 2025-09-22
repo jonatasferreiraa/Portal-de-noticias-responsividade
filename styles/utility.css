@@ -31,16 +31,16 @@
   gap: 1rem;
 }
 
+.py-2xl {
+  padding-block: var(--py-2xl);
+}
+
 .py-xl {
   padding-block: var(--py-xl);
 }
 
 .py-lg {
   padding-block: var(--py-lg);
-}
-
-.py-md {
-  padding-block: var(--py-md);
 }
 
 .py-sm {
