@@ -92,6 +92,15 @@ main section {
 }
 
 @media (width >= 80rem) {
+  main {
+    column-gap: 2rem;
+    grid-template-columns: 2fr 1.35fr;
+
+    grid-template-areas:
+      "featured featured"
+      "weekly weekly"
+      "ai aside";
+  }
   :root {
     /* inline */
     --px-default: 2rem;

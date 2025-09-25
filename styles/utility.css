@@ -31,7 +31,7 @@
 }
 
 .mobile-only {
-  display: initial;
+  display: block;
 }
 
 .even-columns {
@@ -75,13 +75,9 @@
   font: var(--text-p);
 }
 
-m\.top-8 {
-  margin-top: 0.5rem;
-}
-
 @media (width >=80rem) {
   .desktop-only {
-    display: initial;
+    display: block;
   }
 
   .mobile-only {

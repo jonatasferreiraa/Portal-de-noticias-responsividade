@@ -2,10 +2,10 @@
   padding-block: 1rem;
   justify-content: space-between;
 
-  #menu{
-  justify-self: start;
-  align-items: center;
-  gap: 0.25rem;
+  #menu {
+    justify-self: start;
+    align-items: center;
+    gap: 0.25rem;
 
     & span {
       background-image: url(/assets/icons/List.svg);
@@ -17,12 +17,11 @@
       background-image: url(/assets/icons/list-hover.svg);
     }
   }
-  
-  #search{
 
-  justify-self: end;
-  align-items: center;
-  gap: 0.25rem;
+  #search {
+    justify-self: end;
+    align-items: center;
+    gap: 0.25rem;
 
     & span {
       background-image: url(/assets/icons/MagnifyingGlass.svg);
@@ -33,8 +32,8 @@
     &:hover span {
       background-image: url(/assets/icons/MagnifyingGlass-hover.svg);
     }
+  }
 }
-
 
 @media (width >= 80rem) {
   header {
