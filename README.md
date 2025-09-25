@@ -33,7 +33,7 @@ Projeto desenvolvido com intuito de **estudo de responsividade e práticas de HT
 ---
 
 ##  Demonstração 
-🔗 [Acesse o projeto online](https://travelgram-com-responsividade.vercel.app/)  
+🔗 [Acesse o projeto online](https://portal-de-noticias-responsividade.vercel.app/)  
 
 ---
 
