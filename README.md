@@ -1,6 +1,4 @@
-<h1 align= "center">
-#<h1> 📩 Portal de Notícias - com responsividade  </h1>
-
+<h1 align= "center"><h1> 📩 Portal de Notícias - com responsividade  </h1></h1>
 
 
 Navegação:
@@ -13,13 +11,11 @@ Navegação:
 <a href="#licença">Licença</a>
 </p>
 
+
 <img width="1920" height="1080" alt="Thumbnail (4)" src="https://github.com/user-attachments/assets/6daf17fb-71b8-4487-b490-05714132f96b" />
 
 
 ## Sobre
-
-
-![DESKTOP 1280PX](https://github.com/user-attachments/assets/d5b70630-5742-4865-b9ec-cb918131b179) ![MOBILE 380X](https://github.com/user-attachments/assets/fd16e083-9e25-498a-8360-c7466ff8ec32)
 
 
 Uma interface com responsividade ( desktop : 1280px ) ( mobile : 380px)
